@@ -1,0 +1,23 @@
+
+<ul>
+
+	<% @category.each do |a| %>
+
+  <br><li><%= link_to a.name, url_for(:recipe, :show, :name => a.name)%></li></br>
+ 
+ <% end %>
+
+</ul>
+
+
+
+
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,8 @@
+<ul>
+	<% @recipes.each do |x| %>
+	
+	<br><li><%= link_to x.name, url_for(:recipe, :ingredient, :name => x.name)%></li></br>
+
+ <% end %>
+
+</ul>
