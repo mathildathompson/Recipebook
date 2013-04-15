@@ -1,8 +1,21 @@
 ul {color: blue;
-    size: 20px;
+    font-size: 50px;
+
     }
 
 
-li {color: pink;
-    size: 30px;
+li {color: red;
+    font-size: 50px;
+    font-weight: bold;
     }
+
+img {
+	float: right;
+    }
+
+.image {
+	    float: right;
+	    margin: 50px;
+	    
+	    }
+
